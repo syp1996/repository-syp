@@ -115,6 +115,7 @@
     color:#fff
 }
 
+/**初级按钮 朴素 禁用状态*/
 .i__button--primary.is-plain:disabled{
     opacity:.3;
     background:rgba(63,170,245,.05);
@@ -122,6 +123,7 @@
     color:#3FAAF5
 }
 
+/**默认成功按钮样式*/
 .i__button--success{
     background:#13ce66;
     border:1px solid #13ce66;
@@ -129,9 +131,11 @@
 }
 
 .i__button--success:focus,.i__button--success:hover{
-    opacity:.7
+    opacity:.7 /**设置不透明级别*/
 }
 
+
+/**成功 禁用按钮样式*/
 .i__button--success:disabled{
     opacity:.3
 }
