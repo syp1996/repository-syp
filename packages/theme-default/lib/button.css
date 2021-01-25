@@ -73,6 +73,7 @@
     border:1px solid #3FAAF5
 }
 
+
 .i__button--default.is-plain:focus,.i__button--default.is-plain:hover{
     background:#fff;
     border-color:rgba(63,170,245,.8);
@@ -85,6 +86,7 @@
     color:#1f2d3d
 }
 
+/**初级按钮样式*/
 .i__button--primary{
     background:#3FAAF5;
     border:1px solid #3FAAF5;
@@ -95,6 +97,7 @@
     opacity:.7
 }
 
+/** 初级按钮禁用状态样式*/
 .i__button--primary:disabled{
     opacity:.3
 }
