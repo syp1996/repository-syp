@@ -140,6 +140,8 @@
     opacity:.3
 }
 
+
+/**成功 朴素按钮*/
 .i__button--success.is-plain{
     background:rgba(19,206,102,.05);
     border-color:rgba(19,206,102,.8);
