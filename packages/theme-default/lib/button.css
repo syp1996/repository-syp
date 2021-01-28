@@ -16,7 +16,8 @@
     margin:0;
     border-radius:4px;  /** 边框四角弧度*/
     padding:12px 20px;           /**填充大小*/
-    font-size:14px        /** 文字大小*/
+    font-size:14px;        /** 文字大小*/
+    margin-left: 10px;
 }
 
 .i__button.is-round{
@@ -88,8 +89,8 @@
 
 /**初级按钮样式*/
 .i__button--primary{
-    background:#3FAAF5;
-    border:1px solid #3FAAF5;
+    background:#409eff;
+    border:1px solid #409eff;
     color:#fff
 }
 
@@ -103,9 +104,9 @@
 }
 
 .i__button--primary.is-plain{
-    background:rgba(63,170,245,.05);
-    border-color:rgba(63,170,245,.8);
-    color:#3FAAF5
+    background:#fff;
+    border-color:#dcdfe6;
+    color:#606266
 }
 
 .i__button--primary.is-plain:focus,.i__button--primary.is-plain:hover{
@@ -125,8 +126,8 @@
 
 /**默认成功按钮样式*/
 .i__button--success{
-    background:#13ce66;
-    border:1px solid #13ce66;
+    background:#67c23a;
+    border:1px solid #67c23a;
     color:#fff
 }
 
@@ -161,9 +162,10 @@
     color:#13ce66
 }
 
+/**信息按钮样式*/
 .i__button--info{
-    background:#50bfff;
-    border:1px solid #50bfff;
+    background:#909399;
+    border:1px solid #909399;
     color:#fff
 }
 .i__button--info:focus,.i__button--info:hover{
@@ -172,9 +174,11 @@
 .i__button--info:disabled{
     opacity:.3
 }
+
+/**  　信息按钮 朴素按钮*/
 .i__button--info.is-plain{
-    background:rgba(80,191,255,.05);
-    border-color:rgba(80,191,255,.8);color:#50bfff
+    background:#f4f4f5;
+    border-color:#d3d4d6;color:#909399
 }
 .i__button--info.is-plain:focus,.i__button--info.is-plain:hover{
     opacity:1;
@@ -216,9 +220,11 @@
     border-color:rgba(247,186,42,.8);
     color:#f7ba2a
 }
+
+/**危险按钮样式*/
 .i__button--danger{
-    background:#ff4949;
-    border:1px solid #ff4949;
+    background:#f56c6c;
+    border:1px solid #f56c6c;
     color:#fff
 }
 .i__button--danger:focus,.i__button--danger:hover{
@@ -228,9 +234,9 @@
     opacity:.3
 }
 .i__button--danger.is-plain{
-    background:rgba(255,73,73,.05);
-    border-color:rgba(255,73,73,.8);
-    color:#ff4949
+    background:#fef0f0;
+    border-color:#fbc4c4;
+    color:#f56c6c
 }
 .i__button--danger.is-plain:focus,.i__button--danger.is-plain:hover{
     opacity:1;
